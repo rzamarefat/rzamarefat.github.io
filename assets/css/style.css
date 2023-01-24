@@ -679,6 +679,18 @@ p {
 
 #portfolio .portfolio-item {
   margin-bottom: 30px;
+
+  /* max-height: 200px;
+
+  min-height: 200px;0 */
+  /* background-color: #18d26e; */
+}
+
+#portfolio .portfolio-item img{
+  
+  max-height: 300px;
+  min-width: 400px;
+  min-height: 300px;
 }
 
 #portfolio .portfolio-item .portfolio-info {

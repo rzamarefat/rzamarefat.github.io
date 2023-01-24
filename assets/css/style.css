@@ -53,11 +53,11 @@ a:hover {
 }
 
 p {
-  margin: 25px 0;
+  margin: 1px 0 !important;
   padding: 0;
   font-size: 15px;
   color: #999999;
-  line-height: 28px;
+  line-height: 28px !important;
 }
 
 ::-moz-selection {
@@ -463,15 +463,16 @@ p {
 }
 
 .hero-content h1 {
-  font-size: 40px;
+  margin-top: 40rem;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #fff;
 }
 
 .hero-content p {
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: 3px;
   margin-top: 0;
   margin-bottom: 30px;
@@ -563,7 +564,7 @@ p {
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #666666;
 }
 
 #about .div-img-bg .about-img img {
@@ -1139,7 +1140,25 @@ blockquote {
 /** Width between 768px to 991px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
+
+
+ 
+@media (max-width: 768px){
+  .hero-content h1 {
+    font-size: 25px;
+    margin-top: 0 ;
+    margin-top: 30rem;
+  }
+
+}
 @media (min-width: 768px) and (max-width: 991px) {
+
+  .hero-content h1 {
+    font-size: 50px;
+    margin-top: 50rem ;
+    /* background-color: #18d26e; */
+  }
+  
 
   /* Navbar */
   nav {
@@ -1173,10 +1192,6 @@ blockquote {
   /* About */
   .head-info .header-content .cmaster h1 {
     font-size: 32px;
-  }
-
-  #about .div-img-bg {
-    padding: 0;
   }
 
   #about .div-img-bg .about-img img {
@@ -1553,4 +1568,18 @@ blockquote {
     display: inline-block;
     margin-right: 0;
   }
+}
+
+
+
+.company-logos {
+  max-width: 5rem;
+  max-height: 5rem;
+}
+
+.card-header .fa {
+  transition: .3s transform ease-in-out;
+}
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
 }

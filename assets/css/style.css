@@ -171,7 +171,7 @@ p {
 }
 
 .back-to-top:hover {
-  background: #c6b398;
+  background: #000;
   color: #fff;
 }
 
@@ -730,7 +730,7 @@ p {
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
 #portfolio .portfolio-item .portfolio-info .details-link:hover {
-  color: #cab89f;
+  color: #000;
 }
 
 #portfolio .portfolio-item .portfolio-info .details-link {

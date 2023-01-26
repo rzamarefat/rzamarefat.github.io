@@ -61,12 +61,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #b8a07e;
+  background: #666666;
   color: #fff;
 }
 
 ::selection {
-  background: #b8a07e;
+  background: #666666;
   color: #fff;
 }
 
@@ -136,7 +136,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #b8a07e;
+  background: #666666;
 }
 
 .mb-30 {
@@ -157,7 +157,7 @@ p {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #b8a07e;
+  background: #666666;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -269,7 +269,7 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #b8a07e;
+  color: #666666;
 }
 
 .navbar .dropdown ul {
@@ -303,7 +303,7 @@ p {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #b8a07e;
+  color: #666666;
 }
 
 .navbar .dropdown:hover>ul {
@@ -402,7 +402,7 @@ p {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #b8a07e;
+  color: #666666;
 }
 
 .navbar-mobile .getstarted,
@@ -437,7 +437,7 @@ p {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #b8a07e;
+  color: #666666;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -617,7 +617,7 @@ p {
 
 .services-block i {
   font-size: 44px;
-  color: #b8a07e;
+  color: #666666;
   line-height: 44px;
 }
 
@@ -631,11 +631,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #666666;
 }
 
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #666666;
 }
 
 /*--------------------------------------------------------------
@@ -670,7 +670,7 @@ p {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #b8a07e;
+  color: #666666;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -725,7 +725,7 @@ p {
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
-  color: #b8a07e;
+  color: #666666;
 }
 
 #portfolio .portfolio-item .portfolio-info .preview-link:hover,
@@ -763,11 +763,11 @@ p {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #b8a07e;
+  border: 1px solid #666666;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #b8a07e;
+  background-color: #666666;
 }
 
 .portfolio-details .portfolio-info {
@@ -854,7 +854,7 @@ p {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #666666;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1004,7 +1004,7 @@ p {
 }
 
 .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #666666;
   transition: all 0.5s ease-in-out 0s;
 }
 
@@ -1088,7 +1088,7 @@ blockquote {
   background-color: #f2f2f2;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #b8a07e;
+  border-left: 4px solid #666666;
 }
 
 /*--------------------------------------------------------------
@@ -1127,7 +1127,7 @@ blockquote {
 }
 
 #footer .socials-media ul li a:hover {
-  color: #b8a07e;
+  color: #666666;
   transition: all 0.5s ease-in-out 0s;
 }
 
